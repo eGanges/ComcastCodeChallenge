@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE612AB221F7908400B9522E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB121F7908400B9522E /* AppDelegate.swift */; };
+		AE612AB521F7908500B9522E /* ComcastCodeChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB321F7908400B9522E /* ComcastCodeChallenge.xcdatamodeld */; };
+		AE612AB721F7908500B9522E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB621F7908500B9522E /* MasterViewController.swift */; };
+		AE612AB921F7908500B9522E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB821F7908500B9522E /* DetailViewController.swift */; };
+		AE612ABC21F7908500B9522E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE612ABA21F7908500B9522E /* Main.storyboard */; };
+		AE612ABE21F7909D00B9522E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE612ABD21F7909D00B9522E /* Assets.xcassets */; };
+		AE612AC121F7909D00B9522E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE612ABF21F7909D00B9522E /* LaunchScreen.storyboard */; };
+		AE612ACC21F7909E00B9522E /* ComcastCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612ACB21F7909E00B9522E /* ComcastCodeChallengeTests.swift */; };
+		AE612AD721F7909E00B9522E /* ComcastCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AD621F7909E00B9522E /* ComcastCodeChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE612AC821F7909E00B9522E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE612AA621F7908300B9522E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE612AAD21F7908300B9522E;
+			remoteInfo = ComcastCodeChallenge;
+		};
+		AE612AD321F7909E00B9522E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE612AA621F7908300B9522E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE612AAD21F7908300B9522E;
+			remoteInfo = ComcastCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE612AAE21F7908300B9522E /* ComcastCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComcastCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE612AB121F7908400B9522E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE612AB421F7908500B9522E /* ComcastCodeChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ComcastCodeChallenge.xcdatamodel; sourceTree = "<group>"; };
+		AE612AB621F7908500B9522E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		AE612AB821F7908500B9522E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AE612ABB21F7908500B9522E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE612ABD21F7909D00B9522E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE612AC021F7909D00B9522E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE612AC221F7909D00B9522E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE612AC721F7909E00B9522E /* ComcastCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComcastCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE612ACB21F7909E00B9522E /* ComcastCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComcastCodeChallengeTests.swift; sourceTree = "<group>"; };
+		AE612ACD21F7909E00B9522E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE612AD221F7909E00B9522E /* ComcastCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComcastCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE612AD621F7909E00B9522E /* ComcastCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComcastCodeChallengeUITests.swift; sourceTree = "<group>"; };
+		AE612AD821F7909E00B9522E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE612AAB21F7908300B9522E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE612AC421F7909E00B9522E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE612ACF21F7909E00B9522E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE612AA521F7908200B9522E = {
+			isa = PBXGroup;
+			children = (
+				AE612AB021F7908300B9522E /* ComcastCodeChallenge */,
+				AE612ACA21F7909E00B9522E /* ComcastCodeChallengeTests */,
+				AE612AD521F7909E00B9522E /* ComcastCodeChallengeUITests */,
+				AE612AAF21F7908300B9522E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE612AAF21F7908300B9522E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE612AAE21F7908300B9522E /* ComcastCodeChallenge.app */,
+				AE612AC721F7909E00B9522E /* ComcastCodeChallengeTests.xctest */,
+				AE612AD221F7909E00B9522E /* ComcastCodeChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE612AB021F7908300B9522E /* ComcastCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				AE612AB121F7908400B9522E /* AppDelegate.swift */,
+				AE612AB621F7908500B9522E /* MasterViewController.swift */,
+				AE612AB821F7908500B9522E /* DetailViewController.swift */,
+				AE612ABA21F7908500B9522E /* Main.storyboard */,
+				AE612ABD21F7909D00B9522E /* Assets.xcassets */,
+				AE612ABF21F7909D00B9522E /* LaunchScreen.storyboard */,
+				AE612AC221F7909D00B9522E /* Info.plist */,
+				AE612AB321F7908400B9522E /* ComcastCodeChallenge.xcdatamodeld */,
+			);
+			path = ComcastCodeChallenge;
+			sourceTree = "<group>";
+		};
+		AE612ACA21F7909E00B9522E /* ComcastCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE612ACB21F7909E00B9522E /* ComcastCodeChallengeTests.swift */,
+				AE612ACD21F7909E00B9522E /* Info.plist */,
+			);
+			path = ComcastCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		AE612AD521F7909E00B9522E /* ComcastCodeChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE612AD621F7909E00B9522E /* ComcastCodeChallengeUITests.swift */,
+				AE612AD821F7909E00B9522E /* Info.plist */,
+			);
+			path = ComcastCodeChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE612AAD21F7908300B9522E /* ComcastCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE612ADB21F7909E00B9522E /* Build configuration list for PBXNativeTarget "ComcastCodeChallenge" */;
+			buildPhases = (
+				AE612AAA21F7908300B9522E /* Sources */,
+				AE612AAB21F7908300B9522E /* Frameworks */,
+				AE612AAC21F7908300B9522E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComcastCodeChallenge;
+			productName = ComcastCodeChallenge;
+			productReference = AE612AAE21F7908300B9522E /* ComcastCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE612AC621F7909E00B9522E /* ComcastCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE612ADE21F7909E00B9522E /* Build configuration list for PBXNativeTarget "ComcastCodeChallengeTests" */;
+			buildPhases = (
+				AE612AC321F7909E00B9522E /* Sources */,
+				AE612AC421F7909E00B9522E /* Frameworks */,
+				AE612AC521F7909E00B9522E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE612AC921F7909E00B9522E /* PBXTargetDependency */,
+			);
+			name = ComcastCodeChallengeTests;
+			productName = ComcastCodeChallengeTests;
+			productReference = AE612AC721F7909E00B9522E /* ComcastCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE612AD121F7909E00B9522E /* ComcastCodeChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE612AE121F7909E00B9522E /* Build configuration list for PBXNativeTarget "ComcastCodeChallengeUITests" */;
+			buildPhases = (
+				AE612ACE21F7909E00B9522E /* Sources */,
+				AE612ACF21F7909E00B9522E /* Frameworks */,
+				AE612AD021F7909E00B9522E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE612AD421F7909E00B9522E /* PBXTargetDependency */,
+			);
+			name = ComcastCodeChallengeUITests;
+			productName = ComcastCodeChallengeUITests;
+			productReference = AE612AD221F7909E00B9522E /* ComcastCodeChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE612AA621F7908300B9522E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Edward C Ganges";
+				TargetAttributes = {
+					AE612AAD21F7908300B9522E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AE612AC621F7909E00B9522E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AE612AAD21F7908300B9522E;
+					};
+					AE612AD121F7909E00B9522E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AE612AAD21F7908300B9522E;
+					};
+				};
+			};
+			buildConfigurationList = AE612AA921F7908300B9522E /* Build configuration list for PBXProject "ComcastCodeChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE612AA521F7908200B9522E;
+			productRefGroup = AE612AAF21F7908300B9522E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE612AAD21F7908300B9522E /* ComcastCodeChallenge */,
+				AE612AC621F7909E00B9522E /* ComcastCodeChallengeTests */,
+				AE612AD121F7909E00B9522E /* ComcastCodeChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE612AAC21F7908300B9522E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE612AC121F7909D00B9522E /* LaunchScreen.storyboard in Resources */,
+				AE612ABE21F7909D00B9522E /* Assets.xcassets in Resources */,
+				AE612ABC21F7908500B9522E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE612AC521F7909E00B9522E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE612AD021F7909E00B9522E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE612AAA21F7908300B9522E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE612AB221F7908400B9522E /* AppDelegate.swift in Sources */,
+				AE612AB521F7908500B9522E /* ComcastCodeChallenge.xcdatamodeld in Sources */,
+				AE612AB721F7908500B9522E /* MasterViewController.swift in Sources */,
+				AE612AB921F7908500B9522E /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE612AC321F7909E00B9522E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE612ACC21F7909E00B9522E /* ComcastCodeChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE612ACE21F7909E00B9522E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE612AD721F7909E00B9522E /* ComcastCodeChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE612AC921F7909E00B9522E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE612AAD21F7908300B9522E /* ComcastCodeChallenge */;
+			targetProxy = AE612AC821F7909E00B9522E /* PBXContainerItemProxy */;
+		};
+		AE612AD421F7909E00B9522E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE612AAD21F7908300B9522E /* ComcastCodeChallenge */;
+			targetProxy = AE612AD321F7909E00B9522E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE612ABA21F7908500B9522E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE612ABB21F7908500B9522E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE612ABF21F7909D00B9522E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE612AC021F7909D00B9522E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE612AD921F7909E00B9522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE612ADA21F7909E00B9522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE612ADC21F7909E00B9522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A34LA27L4D;
+				INFOPLIST_FILE = ComcastCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardGanges.ComcastCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE612ADD21F7909E00B9522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A34LA27L4D;
+				INFOPLIST_FILE = ComcastCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardGanges.ComcastCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE612ADF21F7909E00B9522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A34LA27L4D;
+				INFOPLIST_FILE = ComcastCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardGanges.ComcastCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComcastCodeChallenge.app/ComcastCodeChallenge";
+			};
+			name = Debug;
+		};
+		AE612AE021F7909E00B9522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A34LA27L4D;
+				INFOPLIST_FILE = ComcastCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardGanges.ComcastCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComcastCodeChallenge.app/ComcastCodeChallenge";
+			};
+			name = Release;
+		};
+		AE612AE221F7909E00B9522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A34LA27L4D;
+				INFOPLIST_FILE = ComcastCodeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardGanges.ComcastCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComcastCodeChallenge;
+			};
+			name = Debug;
+		};
+		AE612AE321F7909E00B9522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A34LA27L4D;
+				INFOPLIST_FILE = ComcastCodeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardGanges.ComcastCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComcastCodeChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE612AA921F7908300B9522E /* Build configuration list for PBXProject "ComcastCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE612AD921F7909E00B9522E /* Debug */,
+				AE612ADA21F7909E00B9522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE612ADB21F7909E00B9522E /* Build configuration list for PBXNativeTarget "ComcastCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE612ADC21F7909E00B9522E /* Debug */,
+				AE612ADD21F7909E00B9522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE612ADE21F7909E00B9522E /* Build configuration list for PBXNativeTarget "ComcastCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE612ADF21F7909E00B9522E /* Debug */,
+				AE612AE021F7909E00B9522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE612AE121F7909E00B9522E /* Build configuration list for PBXNativeTarget "ComcastCodeChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE612AE221F7909E00B9522E /* Debug */,
+				AE612AE321F7909E00B9522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE612AB321F7908400B9522E /* ComcastCodeChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE612AB421F7908500B9522E /* ComcastCodeChallenge.xcdatamodel */,
+			);
+			currentVersion = AE612AB421F7908500B9522E /* ComcastCodeChallenge.xcdatamodel */;
+			path = ComcastCodeChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE612AA621F7908300B9522E /* Project object */;
+}
