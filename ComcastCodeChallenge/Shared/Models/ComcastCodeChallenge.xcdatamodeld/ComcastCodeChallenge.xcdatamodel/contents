@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDShowCharacter" representedClassName="CDShowCharacter" syncable="YES" codeGenerationType="class">
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="iconTaskID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="linkAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Event" representedClassName="Event" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="CDShowCharacter" positionX="261" positionY="198" width="128" height="150"/>
+        <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
+    </elements>
+</model>

@@ -7,15 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE4B9E3622036892001E305C /* MasterVC+WebServiceDDG.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E3522036892001E305C /* MasterVC+WebServiceDDG.swift */; };
+		AE4B9E3722036892001E305C /* MasterVC+WebServiceDDG.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E3522036892001E305C /* MasterVC+WebServiceDDG.swift */; };
+		AE4B9E3822036892001E305C /* MasterVC+WebServiceDDG.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E3522036892001E305C /* MasterVC+WebServiceDDG.swift */; };
+		AE4B9E4022038E04001E305C /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E3F22038E03001E305C /* SlideMenuController.swift */; };
+		AE4B9E4122038E04001E305C /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E3F22038E03001E305C /* SlideMenuController.swift */; };
+		AE4B9E4222038E04001E305C /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E3F22038E03001E305C /* SlideMenuController.swift */; };
+		AE4B9E442203A9BA001E305C /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E432203A9B9001E305C /* FavoritesTableViewController.swift */; };
+		AE4B9E452203A9BA001E305C /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E432203A9B9001E305C /* FavoritesTableViewController.swift */; };
+		AE4B9E462203A9BA001E305C /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E432203A9B9001E305C /* FavoritesTableViewController.swift */; };
+		AE4B9E4C2204AB9E001E305C /* MasterVC+SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E4B2204AB9E001E305C /* MasterVC+SlideMenu.swift */; };
+		AE4B9E5022050FBB001E305C /* MasterVC+SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E4B2204AB9E001E305C /* MasterVC+SlideMenu.swift */; };
+		AE4B9E522206246A001E305C /* NSAttributedString+SearchHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E512206246A001E305C /* NSAttributedString+SearchHighlights.swift */; };
+		AE4B9E532206246A001E305C /* NSAttributedString+SearchHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E512206246A001E305C /* NSAttributedString+SearchHighlights.swift */; };
+		AE4B9E542206246B001E305C /* NSAttributedString+SearchHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E512206246A001E305C /* NSAttributedString+SearchHighlights.swift */; };
+		AE4CA9302200BFBA006E717E /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA92F2200BFB9006E717E /* NSLayoutConstraint+Extension.swift */; };
+		AE4CA9312200BFBA006E717E /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA92F2200BFB9006E717E /* NSLayoutConstraint+Extension.swift */; };
+		AE4CA9322200BFBA006E717E /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA92F2200BFB9006E717E /* NSLayoutConstraint+Extension.swift */; };
+		AE4CA93422023ADF006E717E /* ios-marketing.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4CA93322023ADC006E717E /* ios-marketing.png */; };
+		AE4CA93622023C7A006E717E /* ios-marketing.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4CA93522023C75006E717E /* ios-marketing.png */; };
+		AE4CA93822026220006E717E /* MasterVC+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA93722026220006E717E /* MasterVC+CollectionView.swift */; };
+		AE4CA93922026220006E717E /* MasterVC+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA93722026220006E717E /* MasterVC+CollectionView.swift */; };
+		AE4CA93A22026220006E717E /* MasterVC+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA93722026220006E717E /* MasterVC+CollectionView.swift */; };
+		AE4CA93C220262C0006E717E /* MasterVC+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA93B220262C0006E717E /* MasterVC+Search.swift */; };
+		AE4CA93E220262C0006E717E /* MasterVC+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA93B220262C0006E717E /* MasterVC+Search.swift */; };
+		AE4CA9402202635C006E717E /* MasterVC+Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA93F2202635B006E717E /* MasterVC+Favorites.swift */; };
+		AE4CA9412202635C006E717E /* MasterVC+Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA93F2202635B006E717E /* MasterVC+Favorites.swift */; };
+		AE4CA9422202635C006E717E /* MasterVC+Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA93F2202635B006E717E /* MasterVC+Favorites.swift */; };
+		AE4CA94422026482006E717E /* DetailVC+Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA94322026481006E717E /* DetailVC+Favorites.swift */; };
+		AE4CA94522026482006E717E /* DetailVC+Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA94322026481006E717E /* DetailVC+Favorites.swift */; };
+		AE4CA94622026482006E717E /* DetailVC+Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA94322026481006E717E /* DetailVC+Favorites.swift */; };
+		AE543BC32208E644004811F7 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE9B2F6021FA9E3600A2D8DA /* Configuration.plist */; };
 		AE612AB221F7908400B9522E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB121F7908400B9522E /* AppDelegate.swift */; };
 		AE612AB521F7908500B9522E /* ComcastCodeChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB321F7908400B9522E /* ComcastCodeChallenge.xcdatamodeld */; };
 		AE612AB721F7908500B9522E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB621F7908500B9522E /* MasterViewController.swift */; };
 		AE612AB921F7908500B9522E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB821F7908500B9522E /* DetailViewController.swift */; };
 		AE612ABC21F7908500B9522E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE612ABA21F7908500B9522E /* Main.storyboard */; };
 		AE612ABE21F7909D00B9522E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE612ABD21F7909D00B9522E /* Assets.xcassets */; };
-		AE612AC121F7909D00B9522E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE612ABF21F7909D00B9522E /* LaunchScreen.storyboard */; };
 		AE612ACC21F7909E00B9522E /* ComcastCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612ACB21F7909E00B9522E /* ComcastCodeChallengeTests.swift */; };
 		AE612AD721F7909E00B9522E /* ComcastCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AD621F7909E00B9522E /* ComcastCodeChallengeUITests.swift */; };
+		AE612AE921F7AFEB00B9522E /* Comcast-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE612AE521F7AFEA00B9522E /* Comcast-Logo.jpg */; };
+		AE63469822089AB900A6F5DA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB621F7908500B9522E /* MasterViewController.swift */; };
+		AE63469922089AE900A6F5DA /* MasterVC+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CA93B220262C0006E717E /* MasterVC+Search.swift */; };
+		AE63469A2208A20200A6F5DA /* MasterVC+SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B9E4B2204AB9E001E305C /* MasterVC+SlideMenu.swift */; };
+		AE9B2EF921FA909C00A2D8DA /* icon_favFilterOn.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9B2EF821FA909C00A2D8DA /* icon_favFilterOn.png */; };
+		AE9B2EFC21FA96D900A2D8DA /* ShowCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B7921F7F13300D98324 /* ShowCharacter.swift */; };
+		AE9B2EFE21FA96D900A2D8DA /* ServiceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B7121F7C83F00D98324 /* ServiceErrors.swift */; };
+		AE9B2EFF21FA96D900A2D8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB121F7908400B9522E /* AppDelegate.swift */; };
+		AE9B2F0021FA96D900A2D8DA /* WebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B7321F7D78300D98324 /* WebClient.swift */; };
+		AE9B2F0221FA96D900A2D8DA /* ComcastCodeChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB321F7908400B9522E /* ComcastCodeChallenge.xcdatamodeld */; };
+		AE9B2F0421FA96D900A2D8DA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB821F7908500B9522E /* DetailViewController.swift */; };
+		AE9B2F0521FA96D900A2D8DA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B6F21F7C80300D98324 /* Reachability.swift */; };
+		AE9B2F0621FA96D900A2D8DA /* ShowCharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B6B21F7C6D200D98324 /* ShowCharacterService.swift */; };
+		AE9B2F0A21FA96D900A2D8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE612ABF21F7909D00B9522E /* LaunchScreen.storyboard */; };
+		AE9B2F0C21FA96D900A2D8DA /* icon_favDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7D21F9B73D00D98324 /* icon_favDelete.png */; };
+		AE9B2F0D21FA96D900A2D8DA /* icon_favAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7F21F9B74300D98324 /* icon_favAdd.png */; };
+		AE9B2F0E21FA96D900A2D8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE612ABA21F7908500B9522E /* Main.storyboard */; };
+		AE9B2F0F21FA96D900A2D8DA /* icon_lines.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7B21F9B73100D98324 /* icon_lines.png */; };
+		AE9B2F1021FA96D900A2D8DA /* Comcast-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE612AE521F7AFEA00B9522E /* Comcast-Logo.jpg */; };
+		AE9B2F1121FA96D900A2D8DA /* image_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B8721FA615600D98324 /* image_loading.png */; };
+		AE9B2F1221FA96D900A2D8DA /* icon_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7C21F9B73900D98324 /* icon_grid.png */; };
+		AE9B2F1321FA96D900A2D8DA /* image_notAvailable.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B8821FA615A00D98324 /* image_notAvailable.png */; };
+		AE9B2F1821FA96D900A2D8DA /* icon_favFilterOn.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9B2EF821FA909C00A2D8DA /* icon_favFilterOn.png */; };
+		AE9B2F2021FA977900A2D8DA /* ShowCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B7921F7F13300D98324 /* ShowCharacter.swift */; };
+		AE9B2F2221FA977900A2D8DA /* ServiceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B7121F7C83F00D98324 /* ServiceErrors.swift */; };
+		AE9B2F2321FA977900A2D8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB121F7908400B9522E /* AppDelegate.swift */; };
+		AE9B2F2421FA977900A2D8DA /* WebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B7321F7D78300D98324 /* WebClient.swift */; };
+		AE9B2F2621FA977900A2D8DA /* ComcastCodeChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB321F7908400B9522E /* ComcastCodeChallenge.xcdatamodeld */; };
+		AE9B2F2721FA977900A2D8DA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB621F7908500B9522E /* MasterViewController.swift */; };
+		AE9B2F2821FA977900A2D8DA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE612AB821F7908500B9522E /* DetailViewController.swift */; };
+		AE9B2F2921FA977900A2D8DA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B6F21F7C80300D98324 /* Reachability.swift */; };
+		AE9B2F2A21FA977900A2D8DA /* ShowCharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B6B21F7C6D200D98324 /* ShowCharacterService.swift */; };
+		AE9B2F3021FA977900A2D8DA /* icon_favDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7D21F9B73D00D98324 /* icon_favDelete.png */; };
+		AE9B2F3121FA977900A2D8DA /* icon_favAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7F21F9B74300D98324 /* icon_favAdd.png */; };
+		AE9B2F3221FA977900A2D8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE612ABA21F7908500B9522E /* Main.storyboard */; };
+		AE9B2F3321FA977900A2D8DA /* icon_lines.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7B21F9B73100D98324 /* icon_lines.png */; };
+		AE9B2F3421FA977900A2D8DA /* Comcast-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE612AE521F7AFEA00B9522E /* Comcast-Logo.jpg */; };
+		AE9B2F3521FA977900A2D8DA /* image_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B8721FA615600D98324 /* image_loading.png */; };
+		AE9B2F3621FA977900A2D8DA /* icon_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7C21F9B73900D98324 /* icon_grid.png */; };
+		AE9B2F3721FA977900A2D8DA /* image_notAvailable.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B8821FA615A00D98324 /* image_notAvailable.png */; };
+		AE9B2F3C21FA977900A2D8DA /* icon_favFilterOn.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9B2EF821FA909C00A2D8DA /* icon_favFilterOn.png */; };
+		AE9B2F4B21FA97D300A2D8DA /* The_Simpsons-logo-DB0065CC7C-seeklogo.com.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9B2F4821FA97D200A2D8DA /* The_Simpsons-logo-DB0065CC7C-seeklogo.com.png */; };
+		AE9B2F5521FA97EC00A2D8DA /* The_Wire_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9B2F5221FA97EB00A2D8DA /* The_Wire_logo.png */; };
+		AE9B2F5821FA997600A2D8DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE612AC221F7909D00B9522E /* Info.plist */; };
+		AE9B2F5A21FA99FE00A2D8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9B2F5921FA99FD00A2D8DA /* LaunchScreen.storyboard */; };
+		AE9B2F5F21FA9CF200A2D8DA /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE9B2F5E21FA9CF100A2D8DA /* Configuration.plist */; };
+		AE9B2F6321FAA2D100A2D8DA /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B2F6221FAA2D100A2D8DA /* AppConfiguration.swift */; };
+		AE9B2F6421FAA2D200A2D8DA /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B2F6221FAA2D100A2D8DA /* AppConfiguration.swift */; };
+		AE9B2F6521FAA2D200A2D8DA /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B2F6221FAA2D100A2D8DA /* AppConfiguration.swift */; };
+		AE9B2F6721FAA60300A2D8DA /* AppDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B2F6621FAA60300A2D8DA /* AppDefinitions.swift */; };
+		AE9B2F6821FAA60300A2D8DA /* AppDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B2F6621FAA60300A2D8DA /* AppDefinitions.swift */; };
+		AE9B2F6921FAA60300A2D8DA /* AppDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B2F6621FAA60300A2D8DA /* AppDefinitions.swift */; };
+		AE9B2F6B21FAB54A00A2D8DA /* AssetsSimpsons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9B2F6A21FAB54900A2D8DA /* AssetsSimpsons.xcassets */; };
+		AE9B2F6D21FAB60900A2D8DA /* AssetsTheWire.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9B2F6C21FAB60800A2D8DA /* AssetsTheWire.xcassets */; };
+		AEB47B6C21F7C6D200D98324 /* ShowCharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B6B21F7C6D200D98324 /* ShowCharacterService.swift */; };
+		AEB47B7021F7C80300D98324 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B6F21F7C80300D98324 /* Reachability.swift */; };
+		AEB47B7221F7C83F00D98324 /* ServiceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B7121F7C83F00D98324 /* ServiceErrors.swift */; };
+		AEB47B7421F7D78300D98324 /* WebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B7321F7D78300D98324 /* WebClient.swift */; };
+		AEB47B7A21F7F13300D98324 /* ShowCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47B7921F7F13300D98324 /* ShowCharacter.swift */; };
+		AEB47B8121F9B75300D98324 /* icon_lines.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7B21F9B73100D98324 /* icon_lines.png */; };
+		AEB47B8221F9B75300D98324 /* icon_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7C21F9B73900D98324 /* icon_grid.png */; };
+		AEB47B8321F9B75300D98324 /* icon_favDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7D21F9B73D00D98324 /* icon_favDelete.png */; };
+		AEB47B8521F9B75300D98324 /* icon_favAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B7F21F9B74300D98324 /* icon_favAdd.png */; };
+		AEB47B8921FA615C00D98324 /* image_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B8721FA615600D98324 /* image_loading.png */; };
+		AEB47B8A21FA615C00D98324 /* image_notAvailable.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB47B8821FA615A00D98324 /* image_notAvailable.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +131,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE4B9E3522036892001E305C /* MasterVC+WebServiceDDG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterVC+WebServiceDDG.swift"; sourceTree = "<group>"; };
+		AE4B9E3F22038E03001E305C /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		AE4B9E432203A9B9001E305C /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		AE4B9E4B2204AB9E001E305C /* MasterVC+SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterVC+SlideMenu.swift"; sourceTree = "<group>"; };
+		AE4B9E512206246A001E305C /* NSAttributedString+SearchHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+SearchHighlights.swift"; sourceTree = "<group>"; };
+		AE4CA92F2200BFB9006E717E /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
+		AE4CA93322023ADC006E717E /* ios-marketing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-marketing.png"; sourceTree = "<group>"; };
+		AE4CA93522023C75006E717E /* ios-marketing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-marketing.png"; sourceTree = "<group>"; };
+		AE4CA93722026220006E717E /* MasterVC+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterVC+CollectionView.swift"; sourceTree = "<group>"; };
+		AE4CA93B220262C0006E717E /* MasterVC+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterVC+Search.swift"; sourceTree = "<group>"; };
+		AE4CA93F2202635B006E717E /* MasterVC+Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterVC+Favorites.swift"; sourceTree = "<group>"; };
+		AE4CA94322026481006E717E /* DetailVC+Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailVC+Favorites.swift"; sourceTree = "<group>"; };
+		AE543BC5220B7D21004811F7 /* NOTES.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NOTES.pdf; sourceTree = "<group>"; };
 		AE612AAE21F7908300B9522E /* ComcastCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComcastCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE612AB121F7908400B9522E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE612AB421F7908500B9522E /* ComcastCodeChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ComcastCodeChallenge.xcdatamodel; sourceTree = "<group>"; };
@@ -51,6 +159,32 @@
 		AE612AD221F7909E00B9522E /* ComcastCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComcastCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE612AD621F7909E00B9522E /* ComcastCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComcastCodeChallengeUITests.swift; sourceTree = "<group>"; };
 		AE612AD821F7909E00B9522E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE612AE521F7AFEA00B9522E /* Comcast-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Comcast-Logo.jpg"; sourceTree = "<group>"; };
+		AE9A5A4A2208DE85005B98B6 /* CXSSimpsons-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CXSSimpsons-Info.plist"; sourceTree = "<group>"; };
+		AE9A5A4C2208DE97005B98B6 /* CSXTheWire-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CSXTheWire-Info.plist"; sourceTree = "<group>"; };
+		AE9B2EF821FA909C00A2D8DA /* icon_favFilterOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_favFilterOn.png; sourceTree = "<group>"; };
+		AE9B2F1C21FA96D900A2D8DA /* Simpsons Character Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simpsons Character Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9B2F4021FA977900A2D8DA /* The Wire Character Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Wire Character Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9B2F4821FA97D200A2D8DA /* The_Simpsons-logo-DB0065CC7C-seeklogo.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The_Simpsons-logo-DB0065CC7C-seeklogo.com.png"; sourceTree = "<group>"; };
+		AE9B2F5221FA97EB00A2D8DA /* The_Wire_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = The_Wire_logo.png; sourceTree = "<group>"; };
+		AE9B2F5921FA99FD00A2D8DA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE9B2F5E21FA9CF100A2D8DA /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		AE9B2F6021FA9E3600A2D8DA /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		AE9B2F6221FAA2D100A2D8DA /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		AE9B2F6621FAA60300A2D8DA /* AppDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefinitions.swift; sourceTree = "<group>"; };
+		AE9B2F6A21FAB54900A2D8DA /* AssetsSimpsons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsSimpsons.xcassets; sourceTree = "<group>"; };
+		AE9B2F6C21FAB60800A2D8DA /* AssetsTheWire.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsTheWire.xcassets; sourceTree = "<group>"; };
+		AEB47B6B21F7C6D200D98324 /* ShowCharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCharacterService.swift; sourceTree = "<group>"; };
+		AEB47B6F21F7C80300D98324 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		AEB47B7121F7C83F00D98324 /* ServiceErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceErrors.swift; sourceTree = "<group>"; };
+		AEB47B7321F7D78300D98324 /* WebClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebClient.swift; sourceTree = "<group>"; };
+		AEB47B7921F7F13300D98324 /* ShowCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCharacter.swift; sourceTree = "<group>"; };
+		AEB47B7B21F9B73100D98324 /* icon_lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_lines.png; sourceTree = "<group>"; };
+		AEB47B7C21F9B73900D98324 /* icon_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_grid.png; sourceTree = "<group>"; };
+		AEB47B7D21F9B73D00D98324 /* icon_favDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_favDelete.png; sourceTree = "<group>"; };
+		AEB47B7F21F9B74300D98324 /* icon_favAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_favAdd.png; sourceTree = "<group>"; };
+		AEB47B8721FA615600D98324 /* image_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_loading.png; sourceTree = "<group>"; };
+		AEB47B8821FA615A00D98324 /* image_notAvailable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_notAvailable.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +209,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE9B2F0721FA96D900A2D8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9B2F2B21FA977900A2D8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE4B9E3922037337001E305C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AEB47B6F21F7C80300D98324 /* Reachability.swift */,
+				AEB47B7121F7C83F00D98324 /* ServiceErrors.swift */,
+				AEB47B7321F7D78300D98324 /* WebClient.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AE4B9E3A2203734F001E305C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AEB47B6B21F7C6D200D98324 /* ShowCharacterService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AE4CA92C2200B337006E717E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AE4CA92F2200BFB9006E717E /* NSLayoutConstraint+Extension.swift */,
+				AE4B9E512206246A001E305C /* NSAttributedString+SearchHighlights.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AE543BC4220B7D21004811F7 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				AE543BC5220B7D21004811F7 /* NOTES.pdf */,
+			);
+			path = Documentation;
+			sourceTree = SOURCE_ROOT;
+		};
 		AE612AA521F7908200B9522E = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +277,8 @@
 				AE612AAE21F7908300B9522E /* ComcastCodeChallenge.app */,
 				AE612AC721F7909E00B9522E /* ComcastCodeChallengeTests.xctest */,
 				AE612AD221F7909E00B9522E /* ComcastCodeChallengeUITests.xctest */,
+				AE9B2F1C21FA96D900A2D8DA /* Simpsons Character Viewer.app */,
+				AE9B2F4021FA977900A2D8DA /* The Wire Character Viewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,14 +286,12 @@
 		AE612AB021F7908300B9522E /* ComcastCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				AE612AB121F7908400B9522E /* AppDelegate.swift */,
-				AE612AB621F7908500B9522E /* MasterViewController.swift */,
-				AE612AB821F7908500B9522E /* DetailViewController.swift */,
-				AE612ABA21F7908500B9522E /* Main.storyboard */,
 				AE612ABD21F7909D00B9522E /* Assets.xcassets */,
-				AE612ABF21F7909D00B9522E /* LaunchScreen.storyboard */,
 				AE612AC221F7909D00B9522E /* Info.plist */,
-				AE612AB321F7908400B9522E /* ComcastCodeChallenge.xcdatamodeld */,
+				AE543BC4220B7D21004811F7 /* Documentation */,
+				AE9B2F4221FA97D100A2D8DA /* Target_Simpsons */,
+				AE9B2F4C21FA97EA00A2D8DA /* Target_TheWire */,
+				AEB47B7521F7D96A00D98324 /* Shared */,
 			);
 			path = ComcastCodeChallenge;
 			sourceTree = "<group>";
@@ -129,6 +312,138 @@
 				AE612AD821F7909E00B9522E /* Info.plist */,
 			);
 			path = ComcastCodeChallengeUITests;
+			sourceTree = "<group>";
+		};
+		AE612AE421F7AFEA00B9522E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEB47B8721FA615600D98324 /* image_loading.png */,
+				AEB47B8821FA615A00D98324 /* image_notAvailable.png */,
+				AEB47B7F21F9B74300D98324 /* icon_favAdd.png */,
+				AEB47B7D21F9B73D00D98324 /* icon_favDelete.png */,
+				AE9B2EF821FA909C00A2D8DA /* icon_favFilterOn.png */,
+				AEB47B7C21F9B73900D98324 /* icon_grid.png */,
+				AEB47B7B21F9B73100D98324 /* icon_lines.png */,
+				AE612AE521F7AFEA00B9522E /* Comcast-Logo.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE9B2F4221FA97D100A2D8DA /* Target_Simpsons */ = {
+			isa = PBXGroup;
+			children = (
+				AE9A5A4A2208DE85005B98B6 /* CXSSimpsons-Info.plist */,
+				AE9B2F6021FA9E3600A2D8DA /* Configuration.plist */,
+				AE9B2F4721FA97D200A2D8DA /* Resources */,
+				AE9B2F4921FA97D200A2D8DA /* Views */,
+			);
+			path = Target_Simpsons;
+			sourceTree = "<group>";
+		};
+		AE9B2F4721FA97D200A2D8DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B2F6A21FAB54900A2D8DA /* AssetsSimpsons.xcassets */,
+				AE4CA93522023C75006E717E /* ios-marketing.png */,
+				AE9B2F4821FA97D200A2D8DA /* The_Simpsons-logo-DB0065CC7C-seeklogo.com.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE9B2F4921FA97D200A2D8DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE612ABF21F7909D00B9522E /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE9B2F4C21FA97EA00A2D8DA /* Target_TheWire */ = {
+			isa = PBXGroup;
+			children = (
+				AE9A5A4C2208DE97005B98B6 /* CSXTheWire-Info.plist */,
+				AE9B2F5E21FA9CF100A2D8DA /* Configuration.plist */,
+				AE9B2F5121FA97EB00A2D8DA /* Resources */,
+				AE9B2F5321FA97EB00A2D8DA /* Views */,
+			);
+			path = Target_TheWire;
+			sourceTree = "<group>";
+		};
+		AE9B2F5121FA97EB00A2D8DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B2F6C21FAB60800A2D8DA /* AssetsTheWire.xcassets */,
+				AE4CA93322023ADC006E717E /* ios-marketing.png */,
+				AE9B2F5221FA97EB00A2D8DA /* The_Wire_logo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE9B2F5321FA97EB00A2D8DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B2F5921FA99FD00A2D8DA /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AEB47B6821F7C60300D98324 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B9E3A2203734F001E305C /* Services */,
+				AE4B9E3922037337001E305C /* Shared */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AEB47B7521F7D96A00D98324 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AEB47B7621F7E61D00D98324 /* Controllers */,
+				AE4CA92C2200B337006E717E /* Extensions */,
+				AEB47B7721F7E61D00D98324 /* Models */,
+				AEB47B7821F7E61E00D98324 /* Views */,
+				AEB47B6821F7C60300D98324 /* Networking */,
+				AE612AE421F7AFEA00B9522E /* Resources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AEB47B7621F7E61D00D98324 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE612AB121F7908400B9522E /* AppDelegate.swift */,
+				AE9B2F6221FAA2D100A2D8DA /* AppConfiguration.swift */,
+				AE9B2F6621FAA60300A2D8DA /* AppDefinitions.swift */,
+				AE612AB821F7908500B9522E /* DetailViewController.swift */,
+				AE4CA94322026481006E717E /* DetailVC+Favorites.swift */,
+				AE4B9E432203A9B9001E305C /* FavoritesTableViewController.swift */,
+				AE612AB621F7908500B9522E /* MasterViewController.swift */,
+				AE4CA93722026220006E717E /* MasterVC+CollectionView.swift */,
+				AE4CA93F2202635B006E717E /* MasterVC+Favorites.swift */,
+				AE4CA93B220262C0006E717E /* MasterVC+Search.swift */,
+				AE4B9E4B2204AB9E001E305C /* MasterVC+SlideMenu.swift */,
+				AE4B9E3522036892001E305C /* MasterVC+WebServiceDDG.swift */,
+				AE4B9E3F22038E03001E305C /* SlideMenuController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AEB47B7721F7E61D00D98324 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE612AB321F7908400B9522E /* ComcastCodeChallenge.xcdatamodeld */,
+				AEB47B7921F7F13300D98324 /* ShowCharacter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AEB47B7821F7E61E00D98324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE612ABA21F7908500B9522E /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +502,40 @@
 			productReference = AE612AD221F7909E00B9522E /* ComcastCodeChallengeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AE9B2EFA21FA96D900A2D8DA /* CXSSimpsons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9B2F1921FA96D900A2D8DA /* Build configuration list for PBXNativeTarget "CXSSimpsons" */;
+			buildPhases = (
+				AE9B2EFB21FA96D900A2D8DA /* Sources */,
+				AE9B2F0721FA96D900A2D8DA /* Frameworks */,
+				AE9B2F0821FA96D900A2D8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXSSimpsons;
+			productName = ComcastCodeChallenge;
+			productReference = AE9B2F1C21FA96D900A2D8DA /* Simpsons Character Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE9B2F1E21FA977900A2D8DA /* CXSTheWire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9B2F3D21FA977900A2D8DA /* Build configuration list for PBXNativeTarget "CXSTheWire" */;
+			buildPhases = (
+				AE9B2F1F21FA977900A2D8DA /* Sources */,
+				AE9B2F2B21FA977900A2D8DA /* Frameworks */,
+				AE9B2F2C21FA977900A2D8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXSTheWire;
+			productName = ComcastCodeChallenge;
+			productReference = AE9B2F4021FA977900A2D8DA /* The Wire Character Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,6 +575,8 @@
 				AE612AAD21F7908300B9522E /* ComcastCodeChallenge */,
 				AE612AC621F7909E00B9522E /* ComcastCodeChallengeTests */,
 				AE612AD121F7909E00B9522E /* ComcastCodeChallengeUITests */,
+				AE9B2EFA21FA96D900A2D8DA /* CXSSimpsons */,
+				AE9B2F1E21FA977900A2D8DA /* CXSTheWire */,
 			);
 		};
 /* End PBXProject section */
@@ -235,9 +586,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE612AC121F7909D00B9522E /* LaunchScreen.storyboard in Resources */,
 				AE612ABE21F7909D00B9522E /* Assets.xcassets in Resources */,
+				AEB47B8321F9B75300D98324 /* icon_favDelete.png in Resources */,
+				AEB47B8521F9B75300D98324 /* icon_favAdd.png in Resources */,
 				AE612ABC21F7908500B9522E /* Main.storyboard in Resources */,
+				AEB47B8121F9B75300D98324 /* icon_lines.png in Resources */,
+				AE612AE921F7AFEB00B9522E /* Comcast-Logo.jpg in Resources */,
+				AEB47B8921FA615C00D98324 /* image_loading.png in Resources */,
+				AEB47B8221F9B75300D98324 /* icon_grid.png in Resources */,
+				AE9B2F5821FA997600A2D8DA /* Info.plist in Resources */,
+				AEB47B8A21FA615C00D98324 /* image_notAvailable.png in Resources */,
+				AE9B2EF921FA909C00A2D8DA /* icon_favFilterOn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +614,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE9B2F0821FA96D900A2D8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE543BC32208E644004811F7 /* Configuration.plist in Resources */,
+				AE9B2F0A21FA96D900A2D8DA /* LaunchScreen.storyboard in Resources */,
+				AE9B2F0C21FA96D900A2D8DA /* icon_favDelete.png in Resources */,
+				AE9B2F0D21FA96D900A2D8DA /* icon_favAdd.png in Resources */,
+				AE9B2F0E21FA96D900A2D8DA /* Main.storyboard in Resources */,
+				AE9B2F0F21FA96D900A2D8DA /* icon_lines.png in Resources */,
+				AE9B2F1021FA96D900A2D8DA /* Comcast-Logo.jpg in Resources */,
+				AE9B2F1121FA96D900A2D8DA /* image_loading.png in Resources */,
+				AE9B2F4B21FA97D300A2D8DA /* The_Simpsons-logo-DB0065CC7C-seeklogo.com.png in Resources */,
+				AE9B2F1221FA96D900A2D8DA /* icon_grid.png in Resources */,
+				AE9B2F1321FA96D900A2D8DA /* image_notAvailable.png in Resources */,
+				AE9B2F6B21FAB54A00A2D8DA /* AssetsSimpsons.xcassets in Resources */,
+				AE4CA93622023C7A006E717E /* ios-marketing.png in Resources */,
+				AE9B2F1821FA96D900A2D8DA /* icon_favFilterOn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9B2F2C21FA977900A2D8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9B2F5F21FA9CF200A2D8DA /* Configuration.plist in Resources */,
+				AE9B2F5521FA97EC00A2D8DA /* The_Wire_logo.png in Resources */,
+				AE9B2F6D21FAB60900A2D8DA /* AssetsTheWire.xcassets in Resources */,
+				AE9B2F3021FA977900A2D8DA /* icon_favDelete.png in Resources */,
+				AE9B2F3121FA977900A2D8DA /* icon_favAdd.png in Resources */,
+				AE9B2F3221FA977900A2D8DA /* Main.storyboard in Resources */,
+				AE9B2F3321FA977900A2D8DA /* icon_lines.png in Resources */,
+				AE9B2F3421FA977900A2D8DA /* Comcast-Logo.jpg in Resources */,
+				AE9B2F5A21FA99FE00A2D8DA /* LaunchScreen.storyboard in Resources */,
+				AE9B2F3521FA977900A2D8DA /* image_loading.png in Resources */,
+				AE9B2F3621FA977900A2D8DA /* icon_grid.png in Resources */,
+				AE9B2F3721FA977900A2D8DA /* image_notAvailable.png in Resources */,
+				AE4CA93422023ADF006E717E /* ios-marketing.png in Resources */,
+				AE9B2F3C21FA977900A2D8DA /* icon_favFilterOn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,10 +663,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB47B7A21F7F13300D98324 /* ShowCharacter.swift in Sources */,
+				AE4CA94422026482006E717E /* DetailVC+Favorites.swift in Sources */,
+				AEB47B7221F7C83F00D98324 /* ServiceErrors.swift in Sources */,
 				AE612AB221F7908400B9522E /* AppDelegate.swift in Sources */,
+				AE4B9E4022038E04001E305C /* SlideMenuController.swift in Sources */,
+				AE4CA93822026220006E717E /* MasterVC+CollectionView.swift in Sources */,
+				AEB47B7421F7D78300D98324 /* WebClient.swift in Sources */,
+				AE4CA93C220262C0006E717E /* MasterVC+Search.swift in Sources */,
+				AE4CA9402202635C006E717E /* MasterVC+Favorites.swift in Sources */,
+				AE9B2F6321FAA2D100A2D8DA /* AppConfiguration.swift in Sources */,
 				AE612AB521F7908500B9522E /* ComcastCodeChallenge.xcdatamodeld in Sources */,
+				AE4B9E4C2204AB9E001E305C /* MasterVC+SlideMenu.swift in Sources */,
+				AE9B2F6721FAA60300A2D8DA /* AppDefinitions.swift in Sources */,
 				AE612AB721F7908500B9522E /* MasterViewController.swift in Sources */,
 				AE612AB921F7908500B9522E /* DetailViewController.swift in Sources */,
+				AE4CA9302200BFBA006E717E /* NSLayoutConstraint+Extension.swift in Sources */,
+				AEB47B7021F7C80300D98324 /* Reachability.swift in Sources */,
+				AE4B9E3622036892001E305C /* MasterVC+WebServiceDDG.swift in Sources */,
+				AEB47B6C21F7C6D200D98324 /* ShowCharacterService.swift in Sources */,
+				AE4B9E442203A9BA001E305C /* FavoritesTableViewController.swift in Sources */,
+				AE4B9E522206246A001E305C /* NSAttributedString+SearchHighlights.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +700,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE612AD721F7909E00B9522E /* ComcastCodeChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9B2EFB21FA96D900A2D8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE63469822089AB900A6F5DA /* MasterViewController.swift in Sources */,
+				AE9B2EFC21FA96D900A2D8DA /* ShowCharacter.swift in Sources */,
+				AE4CA9312200BFBA006E717E /* NSLayoutConstraint+Extension.swift in Sources */,
+				AE9B2EFE21FA96D900A2D8DA /* ServiceErrors.swift in Sources */,
+				AE9B2F6421FAA2D200A2D8DA /* AppConfiguration.swift in Sources */,
+				AE4B9E4122038E04001E305C /* SlideMenuController.swift in Sources */,
+				AE4CA93922026220006E717E /* MasterVC+CollectionView.swift in Sources */,
+				AE9B2EFF21FA96D900A2D8DA /* AppDelegate.swift in Sources */,
+				AE9B2F0021FA96D900A2D8DA /* WebClient.swift in Sources */,
+				AE9B2F6821FAA60300A2D8DA /* AppDefinitions.swift in Sources */,
+				AE63469922089AE900A6F5DA /* MasterVC+Search.swift in Sources */,
+				AE4CA9412202635C006E717E /* MasterVC+Favorites.swift in Sources */,
+				AE63469A2208A20200A6F5DA /* MasterVC+SlideMenu.swift in Sources */,
+				AE9B2F0221FA96D900A2D8DA /* ComcastCodeChallenge.xcdatamodeld in Sources */,
+				AE9B2F0421FA96D900A2D8DA /* DetailViewController.swift in Sources */,
+				AE9B2F0521FA96D900A2D8DA /* Reachability.swift in Sources */,
+				AE4CA94522026482006E717E /* DetailVC+Favorites.swift in Sources */,
+				AE4B9E3722036892001E305C /* MasterVC+WebServiceDDG.swift in Sources */,
+				AE9B2F0621FA96D900A2D8DA /* ShowCharacterService.swift in Sources */,
+				AE4B9E452203A9BA001E305C /* FavoritesTableViewController.swift in Sources */,
+				AE4B9E532206246A001E305C /* NSAttributedString+SearchHighlights.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9B2F1F21FA977900A2D8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9B2F2021FA977900A2D8DA /* ShowCharacter.swift in Sources */,
+				AE4B9E5022050FBB001E305C /* MasterVC+SlideMenu.swift in Sources */,
+				AE4CA9322200BFBA006E717E /* NSLayoutConstraint+Extension.swift in Sources */,
+				AE9B2F6521FAA2D200A2D8DA /* AppConfiguration.swift in Sources */,
+				AE9B2F2221FA977900A2D8DA /* ServiceErrors.swift in Sources */,
+				AE4B9E4222038E04001E305C /* SlideMenuController.swift in Sources */,
+				AE4CA93A22026220006E717E /* MasterVC+CollectionView.swift in Sources */,
+				AE9B2F2321FA977900A2D8DA /* AppDelegate.swift in Sources */,
+				AE9B2F6921FAA60300A2D8DA /* AppDefinitions.swift in Sources */,
+				AE9B2F2421FA977900A2D8DA /* WebClient.swift in Sources */,
+				AE4CA9422202635C006E717E /* MasterVC+Favorites.swift in Sources */,
+				AE9B2F2621FA977900A2D8DA /* ComcastCodeChallenge.xcdatamodeld in Sources */,
+				AE9B2F2721FA977900A2D8DA /* MasterViewController.swift in Sources */,
+				AE9B2F2821FA977900A2D8DA /* DetailViewController.swift in Sources */,
+				AE9B2F2921FA977900A2D8DA /* Reachability.swift in Sources */,
+				AE4CA94622026482006E717E /* DetailVC+Favorites.swift in Sources */,
+				AE4B9E3822036892001E305C /* MasterVC+WebServiceDDG.swift in Sources */,
+				AE4CA93E220262C0006E717E /* MasterVC+Search.swift in Sources */,
+				AE9B2F2A21FA977900A2D8DA /* ShowCharacterService.swift in Sources */,
+				AE4B9E462203A9BA001E305C /* FavoritesTableViewController.swift in Sources */,
+				AE4B9E542206246B001E305C /* NSAttributedString+SearchHighlights.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +917,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A34LA27L4D;
 				INFOPLIST_FILE = ComcastCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,6 +936,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A34LA27L4D;
 				INFOPLIST_FILE = ComcastCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -554,6 +1030,82 @@
 			};
 			name = Release;
 		};
+		AE9B2F1A21FA96D900A2D8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A34LA27L4D;
+				INFOPLIST_FILE = "$(SRCROOT)/ComcastCodeChallenge/Target_Simpsons/CXSSimpsons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsviewer;
+				PRODUCT_NAME = "Simpsons Character Viewer";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE9B2F1B21FA96D900A2D8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A34LA27L4D;
+				INFOPLIST_FILE = "$(SRCROOT)/ComcastCodeChallenge/Target_Simpsons/CXSSimpsons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsviewer;
+				PRODUCT_NAME = "Simpsons Character Viewer";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE9B2F3E21FA977900A2D8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A34LA27L4D;
+				INFOPLIST_FILE = "$(SRCROOT)/ComcastCodeChallenge/Target_TheWire/CSXTheWire-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
+				PRODUCT_NAME = "The Wire Character Viewer";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE9B2F3F21FA977900A2D8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A34LA27L4D;
+				INFOPLIST_FILE = "$(SRCROOT)/ComcastCodeChallenge/Target_TheWire/CSXTheWire-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
+				PRODUCT_NAME = "The Wire Character Viewer";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -589,6 +1141,24 @@
 			buildConfigurations = (
 				AE612AE221F7909E00B9522E /* Debug */,
 				AE612AE321F7909E00B9522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9B2F1921FA96D900A2D8DA /* Build configuration list for PBXNativeTarget "CXSSimpsons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9B2F1A21FA96D900A2D8DA /* Debug */,
+				AE9B2F1B21FA96D900A2D8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9B2F3D21FA977900A2D8DA /* Build configuration list for PBXNativeTarget "CXSTheWire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9B2F3E21FA977900A2D8DA /* Debug */,
+				AE9B2F3F21FA977900A2D8DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

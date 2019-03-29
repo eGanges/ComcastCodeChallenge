@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appTitleBarName</key>
+	<string>The Wire Character Viewer</string>
+	<key>appImageLoadingName</key>
+	<string>image_loading.png</string>
+	<key>appImageUnavailableName</key>
+	<string>image_notAvailable.png</string>
+	<key>appWebServicePrefixName</key>
+	<string>the+wire</string>
+	<key>appImageAspectCollection</key>
+	<string>AspectFill</string>
+	<key>appImageAspectDetail</key>
+	<string>AspectFill</string>
+	<key>appCollectionCellBGColor</key>
+	<string>white</string>
+</dict>
+</plist>

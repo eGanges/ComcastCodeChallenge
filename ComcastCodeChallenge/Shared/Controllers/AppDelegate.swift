@@ -13,18 +13,26 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
     var window: UIWindow?
-
+    
+    static var shared: AppDelegate? {
+        return UIApplication.shared.delegate as? AppDelegate
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        // load plists, etc.
+        AppConfiguration.shared.configure()
+
         let splitViewController = self.window!.rootViewController as! UISplitViewController
         let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
-
+        
         let masterNavigationController = splitViewController.viewControllers[0] as! UINavigationController
         let controller = masterNavigationController.topViewController as! MasterViewController
         controller.managedObjectContext = self.persistentContainer.viewContext
+
         return true
     }
 
@@ -57,14 +65,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
     func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController:UIViewController, onto primaryViewController:UIViewController) -> Bool {
         guard let secondaryAsNavController = secondaryViewController as? UINavigationController else { return false }
         guard let topAsDetailController = secondaryAsNavController.topViewController as? DetailViewController else { return false }
-        if topAsDetailController.detailItem == nil {
+        if topAsDetailController.detailShowCharacter == nil {
             // Return true to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
             return true
         }
         return false
     }
+    
+    
     // MARK: - Core Data stack
-
     lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
@@ -106,6 +115,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+
+    func saveContextForManagedObject(_ object: NSManagedObject) -> Bool {
+        if let context = object.managedObjectContext, context.hasChanges {
+            do {
+                try context.save()
+                print("Save Completed with success")
+                return true
+            } catch {
+                let nserror = error as NSError
+                print("Could Not Save managed object. Unresolved error \(nserror), \(nserror.userInfo)")
+            }
+        }
+        return false
     }
 
 }
