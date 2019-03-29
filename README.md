@@ -4,12 +4,13 @@ This project was submitted as part of a job application coding challenge for Com
 
 This repository is for code review purposes only.
 
-Copyright © 2019 Edward C Ganges. All rights reserved.
-
 Please see /Documentation/NOTES.pdf for full details of this projects implementation, architeture, coding, and architectural decisions.  Architecture, coding, design (UI/UX), documentation, and additional graphics arts (icons, launch screens, image choices, etc) by Edward Ganges.
 
+Copyright © 2019 Edward C Ganges. All rights reserved.
 
-Below is the overview of the Challenge:
+-----------------
+
+Challenge Overiew:
 
 Write a sample app that fetches and displays data from a RESTful Web API.
 The app should be able to display the data as a text only, scrollable list of titles, and on phones, should be toggle- able from the list to a scrollable grid of item images. The title and description for each item should each be parsed out of the data in the "Text" field. Images should be loaded from the URLs in the "Icon" field. For items with blank or missing image URLs, use a placeholder image of your choice.
