@@ -4,7 +4,7 @@ This repository is for code review purposes only.
 
 https://github.com/eGanges/ComcastCodeChallenge/blob/master/Documentation/NOTES.pdf
 
-View /Documentation/NOTES.pdf for full documentation of this projects implementation, architeture, coding, and architectural decisions.  Architecture, coding, design (UI/UX), documentation, and additional graphic arts (icons, launch screens, image choices, etc) by Edward Ganges.
+See /Documentation/NOTES.pdf for full documentation of this projects implementation, architeture, coding, and architectural decisions.  Architecture, coding, design (UI/UX), documentation, and additional graphic arts (icons, launch screens, image choices, etc) by Edward Ganges.
 
 Copyright © 2019 Edward C Ganges. All rights reserved.
 
